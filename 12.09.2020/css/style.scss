@@ -1,0 +1,216 @@
+header{
+    background-image: url(http://quomodosoft.com/html/dawat/demo/img/slider/slide_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    .top-menu{
+        border-bottom: 1px solid #ccc;
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .address{
+                display: flex;
+                .address-p{
+                    padding-right: 10px;
+                }
+            }
+            .head-icon{
+                .table{
+                        color: #ffffff;
+                        &:hover{
+                            color: #ca3d26;
+                            background-color: #fff;
+                        }
+                    padding: 14px 30px;
+                    background-color:#ca3d26;
+                }
+                display: flex;
+                ul{
+                    align-items: center;
+                    display: flex;
+                    li{
+                        padding: 0 15px;
+                        color: #ffffff;
+                        &:hover{
+                            color: #ca3d26;
+                            background-color: #fff;
+                            padding: 14px 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navigation-menu{
+        padding: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li{
+                padding: 20px 0px;
+                a{
+                    color: #ffffff;
+                    padding: 0 20px;
+                    &:hover{
+                        color: #ca3d26;
+                    }
+                }
+                .active{
+                    color: #ca3d26;
+                    padding-top: 35px;
+                    border-top: 2px solid #ca3d26;
+                }
+            }
+        }
+    }
+    .head-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-weight: 100;
+        font-size: 35px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        color: #ffffff;
+        h2{
+            white-space: nowrap;
+        }
+        .ac{
+            border: 1px solid red;
+            color: #ffffff;
+            transition: .5s ease-in-out;
+            padding: 0 20px;
+            &:hover{
+                background-color: red;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.up{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: royalblue;
+    padding: 15px;
+}
+
+
+.story-section{
+    background-image: url(http://quomodosoft.com/html/dawat/demo/img/about/home_three_about_bg.png);
+    padding: 100px 0;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    
+    .tag{
+        text-align: center;
+        padding: 35px 0;
+        h2{
+            color: rgb(196, 38, 11);
+            font-size: 60px;
+            font-weight: 100;
+            font-family:  dancing script,cursive;
+            font-style: italic;
+        }
+    }.story-item{
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: .6px;
+            line-height: 1.7em;
+            text-align: justify;
+            span{
+                float: left;
+                color: rgb(37, 36, 36);
+                font-size: 76px;
+                font-weight: 700;
+                margin-bottom: -4px;
+                margin-right: 10px;
+                line-height: 1;
+            }
+        }
+    }
+    .story-img{
+        text-align: center;
+    }
+}
+
+.domatoes-section{
+    background-image: url(http://quomodosoft.com/html/dawat/demo/img/promotions/promotions_area_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: c;
+    background-position: center;
+    height: 100vh;
+
+
+    .special{
+        text-align: center;
+        padding: 125px 0;
+        font-size: 30px;
+        color: #ca3d26;
+        font-family: dancing script,cursive;   
+        letter-spacing: 3px;
+        line-height: .8;
+        font-style: italic;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+    .fotopo{
+        display: block;
+        position: relative;
+        float: left;
+        bottom: 80px;
+        padding: 0 65px;
+        width: 50%;
+        z-index: 9;
+    }
+
+    .detal{
+        background-color: rgba(247, 247, 247, 0.753);
+        display: inline-block;
+        padding:80px;
+        
+        a{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 0.5px solid rgb(255, 81, 0);
+            color: rgb(179, 6, 6);
+            padding: 0px 20px;
+            &:hover{
+                background-color: rgb(194, 165, 71);
+                color: #ffffff;
+            }
+        }
+        h3{
+            font font-size: 80px;
+            font-weight: 700;
+            }
+    
+    }
+
+    
+}
+
+.menu-section{
+    .tag{
+        .th2{
+            background-color: blue;
+            background-size: 25px;
+            font-size: 15px;
+        }
+    }
+}
